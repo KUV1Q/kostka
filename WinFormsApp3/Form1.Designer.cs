@@ -30,16 +30,16 @@
         {
             tableLayoutPanel1 = new TableLayoutPanel();
             groupBox1 = new GroupBox();
-            radioButton6 = new RadioButton();
-            radioButton5 = new RadioButton();
-            radioButton4 = new RadioButton();
-            radioButton3 = new RadioButton();
-            radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
+            k20radioButton6 = new RadioButton();
+            k12radioButton5 = new RadioButton();
+            k10radioButton4 = new RadioButton();
+            k8radioButton3 = new RadioButton();
+            k6radioButton2 = new RadioButton();
+            k4radioButton1 = new RadioButton();
             groupBox2 = new GroupBox();
             button1 = new Button();
             groupBox3 = new GroupBox();
-            label1 = new Label();
+            ResultLabel = new Label();
             tableLayoutPanel1.SuspendLayout();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -67,12 +67,12 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(radioButton6);
-            groupBox1.Controls.Add(radioButton5);
-            groupBox1.Controls.Add(radioButton4);
-            groupBox1.Controls.Add(radioButton3);
-            groupBox1.Controls.Add(radioButton2);
-            groupBox1.Controls.Add(radioButton1);
+            groupBox1.Controls.Add(k20radioButton6);
+            groupBox1.Controls.Add(k12radioButton5);
+            groupBox1.Controls.Add(k10radioButton4);
+            groupBox1.Controls.Add(k8radioButton3);
+            groupBox1.Controls.Add(k6radioButton2);
+            groupBox1.Controls.Add(k4radioButton1);
             groupBox1.Dock = DockStyle.Fill;
             groupBox1.Location = new Point(3, 3);
             groupBox1.Name = "groupBox1";
@@ -81,71 +81,78 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Wybor kosci";
             // 
-            // radioButton6
+            // k20radioButton6
             // 
-            radioButton6.AutoSize = true;
-            radioButton6.Location = new Point(280, 116);
-            radioButton6.Name = "radioButton6";
-            radioButton6.Size = new Size(94, 19);
-            radioButton6.TabIndex = 5;
-            radioButton6.TabStop = true;
-            radioButton6.Text = "radioButton6";
-            radioButton6.UseVisualStyleBackColor = true;
+            k20radioButton6.AutoSize = true;
+            k20radioButton6.Font = new Font("Segoe UI", 20F);
+            k20radioButton6.Location = new Point(280, 138);
+            k20radioButton6.Name = "k20radioButton6";
+            k20radioButton6.RightToLeft = RightToLeft.No;
+            k20radioButton6.Size = new Size(81, 41);
+            k20radioButton6.TabIndex = 5;
+            k20radioButton6.TabStop = true;
+            k20radioButton6.Text = "K20";
+            k20radioButton6.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // k12radioButton5
             // 
-            radioButton5.AutoSize = true;
-            radioButton5.Location = new Point(280, 91);
-            radioButton5.Name = "radioButton5";
-            radioButton5.Size = new Size(94, 19);
-            radioButton5.TabIndex = 4;
-            radioButton5.TabStop = true;
-            radioButton5.Text = "radioButton5";
-            radioButton5.UseVisualStyleBackColor = true;
+            k12radioButton5.AutoSize = true;
+            k12radioButton5.Font = new Font("Segoe UI", 20F);
+            k12radioButton5.Location = new Point(280, 91);
+            k12radioButton5.Name = "k12radioButton5";
+            k12radioButton5.Size = new Size(81, 41);
+            k12radioButton5.TabIndex = 4;
+            k12radioButton5.TabStop = true;
+            k12radioButton5.Text = "K12";
+            k12radioButton5.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // k10radioButton4
             // 
-            radioButton4.AutoSize = true;
-            radioButton4.Location = new Point(280, 66);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(94, 19);
-            radioButton4.TabIndex = 3;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "radioButton4";
-            radioButton4.UseVisualStyleBackColor = true;
+            k10radioButton4.AutoSize = true;
+            k10radioButton4.Font = new Font("Segoe UI", 20F);
+            k10radioButton4.Location = new Point(280, 44);
+            k10radioButton4.Name = "k10radioButton4";
+            k10radioButton4.Size = new Size(81, 41);
+            k10radioButton4.TabIndex = 3;
+            k10radioButton4.TabStop = true;
+            k10radioButton4.Text = "K10";
+            k10radioButton4.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // k8radioButton3
             // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(169, 116);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(94, 19);
-            radioButton3.TabIndex = 2;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "radioButton3";
-            radioButton3.UseVisualStyleBackColor = true;
+            k8radioButton3.AutoSize = true;
+            k8radioButton3.Font = new Font("Segoe UI", 20F);
+            k8radioButton3.Location = new Point(169, 138);
+            k8radioButton3.Name = "k8radioButton3";
+            k8radioButton3.Size = new Size(66, 41);
+            k8radioButton3.TabIndex = 2;
+            k8radioButton3.TabStop = true;
+            k8radioButton3.Text = "K8";
+            k8radioButton3.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // k6radioButton2
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(169, 91);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(94, 19);
-            radioButton2.TabIndex = 1;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "radioButton2";
-            radioButton2.UseVisualStyleBackColor = true;
+            k6radioButton2.AutoSize = true;
+            k6radioButton2.Font = new Font("Segoe UI", 20F);
+            k6radioButton2.Location = new Point(169, 91);
+            k6radioButton2.Name = "k6radioButton2";
+            k6radioButton2.Size = new Size(66, 41);
+            k6radioButton2.TabIndex = 1;
+            k6radioButton2.TabStop = true;
+            k6radioButton2.Text = "K6";
+            k6radioButton2.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // k4radioButton1
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(169, 66);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(94, 19);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "radioButton1";
-            radioButton1.UseVisualStyleBackColor = true;
+            k4radioButton1.AutoSize = true;
+            k4radioButton1.Font = new Font("Segoe UI", 20F);
+            k4radioButton1.Location = new Point(169, 44);
+            k4radioButton1.Name = "k4radioButton1";
+            k4radioButton1.Size = new Size(66, 41);
+            k4radioButton1.TabIndex = 0;
+            k4radioButton1.TabStop = true;
+            k4radioButton1.Text = "K4";
+            k4radioButton1.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -161,16 +168,18 @@
             // button1
             // 
             button1.Dock = DockStyle.Fill;
+            button1.Font = new Font("Segoe UI", 20F);
             button1.Location = new Point(3, 19);
             button1.Name = "button1";
             button1.Size = new Size(539, 174);
             button1.TabIndex = 0;
             button1.Text = "Losuj";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(label1);
+            groupBox3.Controls.Add(ResultLabel);
             groupBox3.Dock = DockStyle.Fill;
             groupBox3.Location = new Point(3, 407);
             groupBox3.Name = "groupBox3";
@@ -179,14 +188,17 @@
             groupBox3.TabStop = false;
             groupBox3.Text = "Wynik";
             // 
-            // label1
+            // ResultLabel
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(256, 94);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            ResultLabel.Dock = DockStyle.Fill;
+            ResultLabel.Font = new Font("Segoe UI", 20F);
+            ResultLabel.Location = new Point(3, 19);
+            ResultLabel.Name = "ResultLabel";
+            ResultLabel.Size = new Size(539, 174);
+            ResultLabel.TabIndex = 0;
+            ResultLabel.Text = "Wynik";
+            ResultLabel.TextAlign = ContentAlignment.MiddleCenter;
+            ResultLabel.Click += label1_Click;
             // 
             // Form1
             // 
@@ -201,7 +213,6 @@
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox3.ResumeLayout(false);
-            groupBox3.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -211,13 +222,13 @@
         private GroupBox groupBox1;
         private GroupBox groupBox2;
         private GroupBox groupBox3;
-        private RadioButton radioButton6;
-        private RadioButton radioButton5;
-        private RadioButton radioButton4;
-        private RadioButton radioButton3;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
+        private RadioButton k20radioButton6;
+        private RadioButton k12radioButton5;
+        private RadioButton k10radioButton4;
+        private RadioButton k8radioButton3;
+        private RadioButton k6radioButton2;
+        private RadioButton k4radioButton1;
         private Button button1;
-        private Label label1;
+        private Label ResultLabel;
     }
 }
