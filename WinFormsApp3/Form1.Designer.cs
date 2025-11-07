@@ -39,11 +39,13 @@
             groupBox2 = new GroupBox();
             button1 = new Button();
             groupBox3 = new GroupBox();
+            pictureBox1 = new PictureBox();
             ResultLabel = new Label();
             tableLayoutPanel1.SuspendLayout();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -117,6 +119,7 @@
             k10radioButton4.TabStop = true;
             k10radioButton4.Text = "K10";
             k10radioButton4.UseVisualStyleBackColor = true;
+            k10radioButton4.CheckedChanged += k10radioButton4_CheckedChanged;
             // 
             // k8radioButton3
             // 
@@ -179,6 +182,7 @@
             // 
             // groupBox3
             // 
+            groupBox3.Controls.Add(pictureBox1);
             groupBox3.Controls.Add(ResultLabel);
             groupBox3.Dock = DockStyle.Fill;
             groupBox3.Location = new Point(3, 407);
@@ -187,6 +191,16 @@
             groupBox3.TabIndex = 2;
             groupBox3.TabStop = false;
             groupBox3.Text = "Wynik";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Dock = DockStyle.Fill;
+            pictureBox1.Location = new Point(3, 19);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(539, 174);
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // ResultLabel
             // 
@@ -213,6 +227,7 @@
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -230,5 +245,6 @@
         private RadioButton k4radioButton1;
         private Button button1;
         private Label ResultLabel;
+        private PictureBox pictureBox1;
     }
 }
