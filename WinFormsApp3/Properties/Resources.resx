@@ -118,31 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cztery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="k6_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cztery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dwa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="k6_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dwa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dwacztery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="k4_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dwacztery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jeden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="k6_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jeden.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="jedencztery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="k4_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jedencztery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="piec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="k6_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\piec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="szec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="k6_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\szec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="trzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="k6_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trzy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="trzyczter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="k4_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trzyczter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

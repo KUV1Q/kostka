@@ -63,9 +63,9 @@ namespace WinFormsApp3.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cztery {
+        internal static System.Drawing.Bitmap k4_1 {
             get {
-                object obj = ResourceManager.GetObject("cztery", resourceCulture);
+                object obj = ResourceManager.GetObject("k4_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace WinFormsApp3.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dwa {
+        internal static System.Drawing.Bitmap k4_2 {
             get {
-                object obj = ResourceManager.GetObject("dwa", resourceCulture);
+                object obj = ResourceManager.GetObject("k4_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace WinFormsApp3.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dwacztery {
+        internal static System.Drawing.Bitmap k4_3 {
             get {
-                object obj = ResourceManager.GetObject("dwacztery", resourceCulture);
+                object obj = ResourceManager.GetObject("k4_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace WinFormsApp3.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap jeden {
+        internal static System.Drawing.Bitmap k6_1 {
             get {
-                object obj = ResourceManager.GetObject("jeden", resourceCulture);
+                object obj = ResourceManager.GetObject("k6_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace WinFormsApp3.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap jedencztery {
+        internal static System.Drawing.Bitmap k6_2 {
             get {
-                object obj = ResourceManager.GetObject("jedencztery", resourceCulture);
+                object obj = ResourceManager.GetObject("k6_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace WinFormsApp3.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap piec {
+        internal static System.Drawing.Bitmap k6_3 {
             get {
-                object obj = ResourceManager.GetObject("piec", resourceCulture);
+                object obj = ResourceManager.GetObject("k6_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace WinFormsApp3.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap szec {
+        internal static System.Drawing.Bitmap k6_4 {
             get {
-                object obj = ResourceManager.GetObject("szec", resourceCulture);
+                object obj = ResourceManager.GetObject("k6_4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace WinFormsApp3.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap trzy {
+        internal static System.Drawing.Bitmap k6_5 {
             get {
-                object obj = ResourceManager.GetObject("trzy", resourceCulture);
+                object obj = ResourceManager.GetObject("k6_5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace WinFormsApp3.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap trzyczter {
+        internal static System.Drawing.Bitmap k6_6 {
             get {
-                object obj = ResourceManager.GetObject("trzyczter", resourceCulture);
+                object obj = ResourceManager.GetObject("k6_6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
